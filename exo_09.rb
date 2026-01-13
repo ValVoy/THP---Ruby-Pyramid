@@ -1,0 +1,7 @@
+puts "Bonjour, quelle est ton année de naissance ?"
+print "> "
+user_bornyear = gets.chomp.to_i  # Convertir en entier
+boucle = 2026 
+user_bornyear.upto(boucle) do |i|
+  puts i
+end
